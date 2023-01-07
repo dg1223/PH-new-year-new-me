@@ -63,7 +63,7 @@ h6{
 /* Failures section styles */
 .failures{
     display: flex;
-    gap: 60px;
+    gap: 100px;
     justify-content: center;
 }
 .failures .section-container{
