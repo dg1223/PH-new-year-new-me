@@ -2,15 +2,33 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
+/* Common styles */
+.description-primary{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+section{
+    margin-top: 130px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+/* Header and banner styles */
 .header{
-    margin: 0 160px;
     height: 808px;
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
 }
 .banner-container{
     text-align: right;
-    padding: 200px 230px 0 800px;
+    padding: 200px 75px 0 600px;
 }
 .banner-title{
     margin-bottom: 24px;
@@ -19,15 +37,9 @@
     line-height: 76px;
     color: #151414;
 }
-.description-primary{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: #444343;
-}
 .banner-container .description-primary{
     margin-bottom: 32px;
-    padding-left: 100px;
+    padding-left: 190px;
 }
 .btn-contact{
     width: 160px;
@@ -40,32 +52,59 @@
     text-align: center;
     color: #FFFFFF;
 }
+h6{
+    padding: 15px 0 0 10px;
+    width: 17%;
+    line-height: 20px;
+    color: darkred;
+    font-weight: bold;
+}
+
+/* Failures section styles */
 .failures{
     display: flex;
-    gap: 200px;
+    gap: 60px;
     justify-content: center;
-    margin-bottom: 130px;
-}
-.failures img{
-    margin-top: 131px;
 }
 .failures .section-container{
     margin-top: 370px;
-    /* margin-right: 100px; */
     width: 416px;
     height: 400px;
 }
 .failures .section-title{
     margin-bottom: 24px;
-    font-weight: 900;
-    font-size: 40px;
-    line-height: 47px;
-    color: #151414;
 }
 .section-container>.description-primary{
     margin-bottom: 16px;
 }
 .tick-mark{
     color: #d86416;
-    font-size: x-large ;
+    font-size: x-large;
+}
+
+/* Plans section styles */
+.plans{
+    text-align: center;
+}
+.plans .section-title{
+    margin-bottom: 50px;
+}
+.plan-container{
+    display: flex;
+    gap: 86px;
+    justify-content: center;
+}
+.plan-title{
+    margin: 24px 0 16px 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+}
+.plan-description{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
 }
