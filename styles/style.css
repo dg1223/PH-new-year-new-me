@@ -10,7 +10,7 @@
 }
 .banner-container{
     text-align: right;
-    padding: 200px 230px 0 900px;
+    padding: 200px 230px 0 800px;
 }
 .banner-title{
     margin-bottom: 24px;
@@ -19,12 +19,15 @@
     line-height: 76px;
     color: #151414;
 }
-.banner-description{
-    margin-bottom: 32px;
+.description-primary{
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #444343;
+}
+.banner-container .description-primary{
+    margin-bottom: 32px;
+    padding-left: 100px;
 }
 .btn-contact{
     width: 160px;
@@ -36,4 +39,33 @@
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
+}
+.failures{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+.failures img{
+    margin-top: 131px;
+}
+.failures .section-container{
+    margin-top: 370px;
+    /* margin-right: 100px; */
+    width: 416px;
+    height: 400px;
+}
+.failures .section-title{
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+.section-container>.description-primary{
+    margin-bottom: 16px;
+}
+.tick-mark{
+    color: #d86416;
+    font-size: x-large ;
 }
