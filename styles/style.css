@@ -28,7 +28,7 @@ section{
 }
 .banner-container{
     text-align: right;
-    padding: 200px 75px 0 600px;
+    padding: 150px 100px 0 600px;
 }
 .banner-title{
     margin-bottom: 24px;
@@ -41,7 +41,7 @@ section{
     margin-bottom: 32px;
     padding-left: 190px;
 }
-.btn-contact{
+.btn-primary{
     width: 160px;
     height: 64px;
     background: #F15B22;
@@ -67,7 +67,7 @@ h6{
     justify-content: center;
 }
 .failures .section-container{
-    margin-top: 370px;
+    margin-top: 200px;
     width: 416px;
     height: 400px;
 }
@@ -107,4 +107,90 @@ h6{
     font-size: 25px;
     line-height: 29px;
     color: #737272;
+}
+
+/* Mindset section styles */
+.mindset-container{
+    padding: 0 162px;
+    height: 300px;
+    background-image: linear-gradient(90deg, #FFFFFF 100px, #F15B22 0%, rgba(241, 91, 34, 0) 80%), url('../images/icons/watch.png');
+    /* background-image: url('../images/icons/watch.png'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%); */
+    border-radius: 8px;
+}
+.mindset-description{
+    padding-top: 63px;
+}
+.mindset-title{
+    margin-bottom: 24px;
+    width: 50%;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.btn-secondary{
+    width: 160px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F15B22;
+}
+
+/* Footer section styles */
+footer{
+    margin-top: 130px;
+    padding: 30px 0 50px 0;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    background: #151414;
+    color: #F8F8F8;
+}
+.footer-title{
+    margin-bottom: 16px;
+}
+.future{
+    width: 485px;
+    height: 317px;
+}
+.future .footer-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+.future-description{
+    margin-bottom: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.future a{
+    text-decoration: none;
+    padding-right: 10px;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+}
+.subscribe h4{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+}
+.subscribe input{
+    margin-bottom: 16px;
+    padding-left: 21px;
+    width: 325px;
+    height: 64px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background: none;
+    color: #F3F3F3;
 }
